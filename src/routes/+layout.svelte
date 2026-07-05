@@ -1,5 +1,6 @@
 <script lang="ts">
 	import './app.css';
+	import { base } from '$app/paths';
 
 	let { children } = $props();
 </script>
@@ -12,10 +13,10 @@
 
 <nav>
 	<div class="nav-inner">
-		<a href="/" class="logo">🌟 Camilla's World</a>
+		<a href="{base}/" class="logo">🌟 Camilla's World</a>
 		<div class="links">
-			<a href="/">🏠 Home</a>
-			<a href="/games/">🎮 Games</a>
+			<a href="{base}/">🏠 Home</a>
+			<a href="{base}/games/">🎮 Games</a>
 		</div>
 	</div>
 </nav>

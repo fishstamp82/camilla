@@ -1,4 +1,5 @@
 <script lang="ts">
+	import { base } from '$app/paths';
 </script>
 
 <div class="games-header">
@@ -7,7 +8,7 @@
 </div>
 
 <div class="games-grid">
-	<a href="/games/dino/" class="game-card">
+	<a href="{base}/games/dino/" class="game-card">
 		<div class="game-preview dino-preview">
 			<span class="big-emoji">🦖</span>
 		</div>

@@ -1,4 +1,5 @@
 <script lang="ts">
+	import { base } from '$app/paths';
 	import { onMount } from 'svelte';
 	import { launchDinoGame } from '$lib/games/dinogame';
 
@@ -20,7 +21,7 @@
 
 <div class="game-page">
 	<div class="game-header">
-		<a href="/games/" class="back-link">← Back to games</a>
+		<a href="{base}/games/" class="back-link">← Back to games</a>
 		<h1>🦖 Dino Jumper</h1>
 		<p>Press Space, Up Arrow, or click to jump over the cacti!</p>
 	</div>

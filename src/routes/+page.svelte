@@ -1,4 +1,5 @@
 <script lang="ts">
+	import { base } from '$app/paths';
 </script>
 
 <div class="hero">
@@ -6,19 +7,19 @@
 	<p class="subtitle">This is my super cool website where you can play games!</p>
 
 	<div class="card-grid">
-		<a href="/games/" class="card">
+		<a href="{base}/games/" class="card">
 			<span class="card-icon">🎮</span>
 			<h2>Play Games</h2>
 			<p>Check out all the games I made!</p>
 		</a>
 
-		<a href="/games/" class="card">
+		<a href="{base}/games/" class="card">
 			<span class="card-icon">✨</span>
 			<h2>New Stuff</h2>
 			<p>I'm always adding new things</p>
 		</a>
 
-		<a href="/games/" class="card coming-soon">
+		<a href="{base}/games/" class="card coming-soon">
 			<span class="card-icon">🚀</span>
 			<h2>Coming Soon</h2>
 			<p>More games on the way!</p>

@@ -1,5 +1,7 @@
 import adapter from '@sveltejs/adapter-static';
 
+const base = process.env.BASE_PATH || '';
+
 /** @type {import('@sveltejs/kit').Config} */
 const config = {
 	kit: {
@@ -13,11 +15,12 @@ const config = {
 			precompress: false,
 			strict: true
 		}),
-		// Prepend paths when deploying to a subdirectory (like GitHub Pages project site)
-		// For username.github.io/camilla/ uncomment below and set to '/camilla/'
-		// paths: {
-		// 	base: '/camilla'
-		// }
+		// BASE_PATH env var sets the path prefix for subdirectory deployments
+		// e.g. BASE_PATH=/camilla for fishstamp82.github.io/camilla/
+		// Locally, no BASE_PATH = served at /
+		paths: {
+			base
+		}
 	}
 };
 
