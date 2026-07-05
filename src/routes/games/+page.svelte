@@ -3,8 +3,8 @@
 </script>
 
 <div class="games-header">
-	<h1>🎮 Game Zone</h1>
-	<p>Pick a game and play!</p>
+	<h1>🎮 Spelhörnan</h1>
+	<p>Välj ett spel och spela!</p>
 </div>
 
 <div class="games-grid">
@@ -14,19 +14,19 @@
 		</div>
 		<div class="game-info">
 			<h2>Dino Jumper</h2>
-			<p>Jump over cacti like the classic Chrome dino game!</p>
-			<span class="play-badge">▶ Play</span>
+			<p>Hoppa över kaktusar precis som klassiska Chrome-dinospelet!</p>
+			<span class="play-badge">▶ Spela</span>
 		</div>
 	</a>
 
-	<!-- Placeholder for future games -->
+	<!-- Placeholder för framtida spel -->
 	<div class="game-card placeholder">
 		<div class="game-preview">
 			<span class="big-emoji">🔧</span>
 		</div>
 		<div class="game-info">
-			<h2>More coming!</h2>
-			<p>I'm working on new games...</p>
+			<h2>Mer kommer!</h2>
+			<p>Jag jobbar på nya spel...</p>
 		</div>
 	</div>
 </div>

@@ -21,9 +21,9 @@
 
 <div class="game-page">
 	<div class="game-header">
-		<a href="{base}/games/" class="back-link">← Back to games</a>
+		<a href="{base}/games/" class="back-link">← Tillbaka till spel</a>
 		<h1>🦖 Dino Jumper</h1>
-		<p>Press Space, Up Arrow, or click to jump over the cacti!</p>
+		<p>Tryck Space, Uppil, eller klicka för att hoppa över kaktusarna!</p>
 	</div>
 
 	<div class="game-wrapper">

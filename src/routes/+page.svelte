@@ -3,34 +3,34 @@
 </script>
 
 <div class="hero">
-	<h1>🌟 Welcome to Camilla's World!</h1>
-	<p class="subtitle">This is my super cool website where you can play games!</p>
+	<h1>🌟 Välkommen till Camillas Värld!</h1>
+	<p class="subtitle">Det här är min supercoola webbplats där du kan spela spel!</p>
 
 	<div class="card-grid">
 		<a href="{base}/games/" class="card">
 			<span class="card-icon">🎮</span>
-			<h2>Play Games</h2>
-			<p>Check out all the games I made!</p>
+			<h2>Spela Spel</h2>
+			<p>Kolla in alla spel jag har gjort!</p>
 		</a>
 
 		<a href="{base}/games/" class="card">
 			<span class="card-icon">✨</span>
-			<h2>New Stuff</h2>
-			<p>I'm always adding new things</p>
+			<h2>Nya Grejer</h2>
+			<p>Jag lägger alltid till nya saker</p>
 		</a>
 
 		<a href="{base}/games/" class="card coming-soon">
 			<span class="card-icon">🚀</span>
-			<h2>Coming Soon</h2>
-			<p>More games on the way!</p>
+			<h2>Kommer Snart</h2>
+			<p>Fler spel på väg!</p>
 		</a>
 	</div>
 </div>
 
 <div class="fun-section">
-	<h2>✨ What's this all about?</h2>
-	<p>I'm learning to make websites and games! This is my little corner of the internet where I can share what I build.</p>
-	<p>Every game here is made with love (and a little bit of code 💻)</p>
+	<h2>✨ Vad handlar det här om?</h2>
+	<p>Jag lär mig att göra webbplatser och spel! Det här är mitt lilla hörn av internet där jag kan dela det jag bygger.</p>
+	<p>Varje spel här är gjort med kärlek (och lite kod 💻)</p>
 </div>
 
 <style>

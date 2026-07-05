@@ -6,17 +6,17 @@
 </script>
 
 <svelte:head>
-	<title>Camilla's Game Zone</title>
-	<meta name="description" content="Camilla's awesome game website — come play!">
+	<title>Camillas Spelhörna</title>
+	<meta name="description" content="Camillas coola spelwebbplats — kom och spela!">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 </svelte:head>
 
 <nav>
 	<div class="nav-inner">
-		<a href="{base}/" class="logo">🌟 Camilla's World</a>
+		<a href="{base}/" class="logo">🌟 Camillas Värld</a>
 		<div class="links">
-			<a href="{base}/">🏠 Home</a>
-			<a href="{base}/games/">🎮 Games</a>
+			<a href="{base}/">🏠 Hem</a>
+			<a href="{base}/games/">🎮 Spel</a>
 		</div>
 	</div>
 </nav>
@@ -26,7 +26,7 @@
 </main>
 
 <footer>
-	<p>Made with 💖 by Camilla</p>
+	<p>Gjord med 💖 av Camilla</p>
 </footer>
 
 <style>
